@@ -39,3 +39,5 @@ class Team {
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
 
 ---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/p4r3qq9v56v5141d/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ajs-8-1/branch/main)
