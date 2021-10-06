@@ -1,0 +1,57 @@
+{
+  "name": "ajs-8.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "lint": " eslint . --fix",
+    "build": "webpack --mode production",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist",
+    "prettier": "prettier  — write src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/222Alexa/AJS-8.1.git"
+  },
+  "author": "222Alexa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/222Alexa/AJS-8.1/issues"
+  },
+  "homepage": "https://github.com/222Alexa/AJS-8.1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-jest": "^27.2.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^13.0.2",
+    "jest": "^27.2.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "prettier": "^2.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.2"
+  }
+}
